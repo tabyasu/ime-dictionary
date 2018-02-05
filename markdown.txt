@@ -1,0 +1,30 @@
+まーくだうん	# 見出し1[h1]	独立語	markdown 見出し<h>
+まーくだうん	## 見出し2[h2]	独立語	markdown  見出し<h>
+まーくだうん	### 見出し3[h3]	独立語	markdown 見出し<h>
+まーくだうん	#### 見出し4[h4]	独立語	markdown 見出し<h>
+まーくだうん	##### 見出し5[h5]	独立語	markdown 見出し<h>
+まーくだうん	###### 見出し6[h6]	独立語	markdown 見出し<h>
+まーくだうん	段落 <p>	独立語	markdown 空行で段落になる
+まーくだうん	  改行<br>	独立語	markdown 行末でスペースを2つ以上
+まーくだうん	---	独立語	markdown 水平線 <hr>
+まーくだうん	***	独立語	markdown 水平線 <hr>
+まーくだうん	___	独立語	markdown 水平線 <hr>
+まーくだうん	 *強調(em)*	独立語	markdown 強調 <em>
+まーくだうん	 **強調(strong)**	独立語	markdown 強調 <strong>
+まーくだうん	 ~~打ち消し~~	独立語	markdown 打ち消し線
+まーくだうん	> 引用1	独立語	markdown 引用 <blockquote>
+まーくだうん	> > 引用2	独立語	markdown 引用 <blockquote>
+まーくだうん	`コード`	独立語	markdown コード <code>
+まーくだうん	    コード複数行	独立語	markdown コード <code>
+まーくだうん	- ulリスト	独立語	markdown 番号なしリスト
+まーくだうん	* ulリスト	独立語	markdown 番号なしリスト
+まーくだうん	+ ulリスト	独立語	markdown 番号なしリスト
+まーくだうん	1. olリスト	独立語	markdown 番号つきリスト
+まーくだうん	<URLリンク>	独立語	markdown 自動リンク
+まーくだうん	[リンク名](URL "title属性" )	独立語	markdown インラインリンク
+まーくだうん	![alt属性](画像ファイルパス)	独立語	markdown 画像 img 画像のみ
+まーくだうん	[![alt属性](画像ファイルパス)](URL)	独立語	markdown 画像 img リンク付き画像
+まーくだうん	\### エスケープ	独立語	markdown バックスラッシュでエスケープ
+まーくだうん	| テーブル | テーブル | テーブル |	独立語	markdown テーブル記法
+まーくだうん	|--|--|--|	独立語	markdown テーブル記法 タイトルとレコードの区切り
+まーくだうん	|:--|--:|:--:|	独立語	markdown テーブル記法 | Left align | Right align | Center align |
