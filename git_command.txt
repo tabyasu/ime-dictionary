@@ -1,0 +1,114 @@
+ぎっと	git config --global user.email "Your E-mail@example.com"	独立語	メールアドレスをGitのグローバル設定に追加
+ぎっと	git config user.name	独立語	user.nameの設定値を表示
+ぎっと	git config user.email	独立語	user.emailの設定値を表示
+ぎっと	git help help	独立語	Gitヘルプシステムのヘルプ
+ぎっと	git help -a	独立語	Gitで利用できる全コマンドのリスト
+ぎっと	git --paginate help -a	独立語	すべてのGitコマンドをページで表示
+ぎっと	git help -g	独立語	すべてのGitガイドを表示
+ぎっと	git help glossary	独立語	Gitの用語集（glossary）を表示
+ぎっと	git init	独立語	カレントディレクトリ内のGitリポジトリを初期化
+ぎっと	git status	独立語	Gitに関するカレントディレクトリの状態を表示
+ぎっと	git add FILE	独立語	ファイルをGitに追跡させる（ファイルはステージングエリアに追加される）
+ぎっと	git commit -m "Message"	独立語	変更をGitリポジトリにコミットし、メッセージを付ける
+ぎっと	git log	独立語	Gitリポジトリのログ（ヒストリー）を表示
+ぎっと	git log --stat	独立語	ログとともに、変更されたファイルを表示する
+ぎっと	git ls-files	独立語	リポジトリ内のファイルをリスト表示
+ぎっと	git diff	独立語	カレントディレクトリ内で追跡されているファイルと、リポジトリ内のファイルとの間に変更があれば、それを示す
+ぎっと	git commit -a -m "Message"	独立語	git addを実行してから、ログメッセージとともにgit commitを実行する
+ぎっと	git diff --staged	独立語	ステージングエリアとリポジトリの間に変更があれば、それを示す
+ぎっと	git add --dry-run .	独立語	git addで何が実行されるかを示す
+ぎっと	git add .	独立語	カレントディレクトリ内の新しいファイルをすべて追加する
+ぎっと	git log --shortstat --oneline	独立語	履歴をコミットごとに1行で表示し、各コミットで変更されたファイルのリストを1行で表示する
+ぎっと	git rm FILE	独立語	ファイルを作業ディレクトリとステージングエリアから削除（remove）する
+ぎっと	git mv FILE1 FILE2	独立語	作業ディレクトリとステージングエリアで、FILE1の名前をFILE2に変更する
+ぎっと	git add -p	独立語	ステージングエリアに追加（add）すべき変更部分を手作業で選択（pick）する
+ぎっと	git reset FILE	独立語	ステージングエリアをリセット（reset）して、ファイルをコミット予定から外す
+ぎっと	git checkout FILE	独立語	ファイルの「最後にコミットしたバージョン」をチェックアウトして、localの作業ディレクトリに入れる※まだcommitしていないファイルの差分が消えます
+ぎっと	git log --parents	独立語	ヒストリー表示。個々のコミットで、親コミットのSHA1 IDも表示する。
+ぎっと	git log --parents --abbrev-commit	独立語	ヒストリー表示。個々のコミットで、親コミットのSHA1 IDも短縮表示する。
+ぎっと	git log --oneline	独立語	ヒストリーを簡潔に（各コミットを1行で）表示する
+ぎっと	git log --patch	独立語	ヒストリー表示。個々のコミットにおけるファイルの差分を示す。
+ぎっと	git tag -a TAG_NAME -m TAG_MESSAGE SHA1_ID	独立語	SHA1_IDにタグを付ける。タグ名にTAG_NAME、メッセージにTAG_MESSAGEを使う
+ぎっと	git log --patch-with-stat	独立語	ヒストリー表示。patchとstatの出力を組み合わせる。
+ぎっと	git rev-parse BRANCH	独立語	ブランチ名を、特定のSHA1 IDに変換する（tagでもできる）
+ぎっと	git checkout YOUR_SHA1_ID	独立語	作業ディレクトリを、YOUR_SHA1_IDで指定されたバージョンと一致するものに変更する
+ぎっと	git tag TAG_NAME -m "MESSAGE" YOUR_SHA1ID	独立語	YOUR_SHA1IDを参照するTAG_NAMEという名のタグを作る。このタグには短いメッセージ（MESSAGE）が割り当てられる
+ぎっと	git tag	独立語	すべてのタグのリストを出力する
+ぎっと	git show TAG_NAME	独立語	TAG_NAMEというタグに関する情報を示す
+ぎっと	git branch	独立語	すべてのブランチのリストを表示
+ぎっと	git branch BRANCH	独立語	BRANCHという名前のブランチを新規に作成する
+ぎっと	git checkout BRANCH	独立語	作業ディレクトリを変更して、BRANCHという名前のブランチを反映させる
+ぎっと	git log --graph --decorate --pretty=oneline --all --abbrev-commit	独立語	リポジトリの履歴をすべてのブランチを通じて閲覧する
+ぎっと	git config --global alias.lol "log --graph --decorate --pretty=oneline --all --abbrev-commit"	独立語	git logコマンドのためにlolという名前の別名（alias）を作る（logのオプションは任意）
+ぎっと	git branch -v	独立語	すべてのブランチのリストをSHA1ID情報を付けて表示
+ぎっと	git branch NEW_BRANCH YOUR_SHA1ID	独立語	YOUR_SHA1IDを開始地点としてブランチNEW_BRANCHを作る
+ぎっと	git checkout -b BRANCH_NEW BRANCH_BASE	独立語	BRANCH_BASEを開始地点としてBRANCH_NEWを作り、即座にチェックアウトする
+ぎっと	git reflog	独立語	これまでに（git checkoutやgit reset等によって）行ったブランチ切替のすべての記録を表示する
+ぎっと	git stash	独立語	現在進行中の作業（WIP）をスタッシュ（安全な隠し場所）に入れて、git checkoutを実行できるようにする
+ぎっと	git stash list	独立語	スタッシュに対比させたWIPのリストを表示
+ぎっと	git stash pop	独立語	最後にスタッシュに入れた内容を現在の作業ディレクトリに反映させ、スタッシュから消去する
+ぎっと	git diff BRANCH1...BRANCH2	独立語	2本のブランチ間の差分を最初に違いが現れた場所から相対的に示す
+ぎっと	git branch NEW_BRANCH YOUR_SHA1_ID	独立語	YOUR_SHA1_IDを開始地点としてブランチNEW_BRANCHを作る
+ぎっと	git merge BRANCH	独立語	BRANCHを現在の（カレント）ブランチにマージする
+ぎっと	git log -1	独立語	git log -n 1の短縮形（最新のコミットだけを表示する）
+ぎっと	git merge-base BRANCH1 BRANCH2	独立語	BRANCH1とBRANCH2に共通するベースコミットを表示する
+ぎっと	git clone SOURCE DESTINATION_DIR	独立語	ソースの位置にあるGitリポジトリのクローンを、複製先ディレクトリに作る
+ぎっと	git log --oneline --all	独立語	すべてのブランチから、すべてのコミットログエントリを表示する（通常のgit logは、カレントブランチからのエントリだけを表示する）
+ぎっと	git branch --all	独立語	ローカルブランチだけでなく、リモート追跡ブランチも表示する
+ぎっと	git clone --bare SOURCE DESTINATION_DIR	独立語	SOURCEにあるGitリポジトリのクローンを、複製先ディレクトリに、ペアリポジトリとして作る（複製先ディレクトリの名前は、規約に従って .gitで終わるようにする）
+ぎっと	git ls-tree HEAD	独立語	HEADのすべてのファイルを表示する
+ぎっと	git checkout -f master	独立語	masterブランチをチェックアウトする。現在のブランチに変更があれば、それらは破棄される。
+ぎっと	git remote	独立語	現在のリポジトリにあるリモートの名前を表示する
+ぎっと	git remote -v show	独立語	リモートの名前を、対応するリモートURLとともに表示する
+ぎっと	git remote add BOB ../math.bob	独立語	BOBという名前のリモートを追加する。そのリモートは、ローカルリポジトリ../math.bobを指し示す。
+ぎっと	git ls-remote REMOTE	独立語	リモートリポジトリREMOTEのリファレンスを表示する（現在のローカルリポジトリを指定するには、REMOTEとして . を使う）
+ぎっと	GIT_TRACE_PACKET=1 git ls-remote REMOTE	独立語	リモートとのネットワーク通信の内容を表示する
+ぎっと	git push origin master	独立語	masterブランチをoriginという名前のリモートにプッシュする
+ぎっと	git push	独立語	現在のブランチを、デフォルトのリモート追跡ブランチにプッシュする。デフォルトは、git checkoutまたはgit push --set-upstreamにより設定される
+ぎっと	git push --set-upstream ORIGIN NEW_BRANCH	独立語	ORIGINという名前のリモートにあるNEW_BRANCHへのリモート追跡ブランチを作成する
+ぎっと	git config --get-regexp BRANCH	独立語	名前にBRANCHという言葉が含まれているGit構成設定のリストを表示する
+ぎっと	git branch -d BRANCH	独立語	BRANCHという名前のローカルブランチを削除する
+ぎっと	git push origin :REMOTE_BRANCH	独立語	REMOTE_BRANCHという名前のリモートブランチを、originという名前のリモートから削除する
+ぎっと	git tag -a TAG_NAME -m TAG_MESSAGE SHA1ID	独立語	SHA1IDにタグを付ける。タグ名にTAG_NAME、メッセージにTAG_MESSAGEを使う
+ぎっと	git push origin TAGNAME	独立語	TAGNAMEという名前のタグを、originという名前のリモートにプッシュする
+ぎっと	git push --tags	独立語	すべてのタグをデフォルトのリモートにプッシュする
+ぎっと	git push origin :TAGNAME	独立語	originという名前のリモートから、TAGNAMEという名前のタグを削除する
+ぎっと	git tag -d TAGNAME	独立語	ローカルリポジトリから、TAGNAMEという名前のタグを削除する
+ぎっと	git config --global push.default simple	独立語	Git構成のpush.defaultを、simpleという値に設定する。これは、アクセスできるすべてのリポジトリに（グローバルに）設定される
+ぎっと	git pull	独立語	リポジトリと上流リポジトリと同期させる（git fetchとgit mergeの2つで構成される)
+ぎっと	git fetch	独立語	リモートリポジトリから新しいコミットが取り込まれ、リモート追跡ブランチが更新される
+ぎっと	git merge FETCH_HEAD	独立語	FETCH_HEADからの新しいコミットを、カレントブランチにマージする
+ぎっと	git pull --ff-only	独立語	--ff-onlyスイッチを指定すると、FETCH_HEADがカレントブランチの子孫である場合に限り、マージが許可される（fast-forwardマージ)
+ぎっと	git log --merges	独立語	マージの結果であるコミットのリストを表示
+ぎっと	git log --oneline FILE	独立語	FILEに影響を与えたコミットのリストを表示
+ぎっと	git log --grep=STRING	独立語	コミットメッセージがSTRINGを含んでいるコミットのリストを表示
+ぎっと	git log --since MM/DD/YYYY --until MM/DD/YYYY	独立語	2つの日付の間に作られたコミットのリストを表示
+ぎっと	git shortlog	独立語	著者名によるコミットの要約
+ぎっと	git shortlog -e	独立語	著者名によるコミットの要約で、メールアドレスも表示する
+ぎっと	git log --author=AUTHOR	独立語	AUTHORを著者とするコミットのリスト（名前とメールアドレスを表示）
+ぎっと	git log --stat HEAD^..HEAD	独立語	現在のコミットと、その親の間にあるコミット（と、そのファイル）のリスト
+ぎっと	git log --patch HEAD^..HEAD	独立語	現在のコミットと、その親の間にあるコミット（と、テキストの変更）のリスト
+ぎっと	git branch --column	独立語	すべてのブランチのリストをコラムに分けて表示する
+ぎっと	git name-rev SHA1_ID	独立語	指定したSHA1_IDの名前を最も近いブランチをベースとして表示する
+ぎっと	git branch -r --contains SHA1_ID	独立語	指定のSHA1_IDを含む、すべてのブランチを識別する（-rはリモート追跡ブランチを指定する。これを略すとローカルブランチだけが表示される）
+ぎっと	git grep STRING	独立語	STRINGを含む、すべてのファイルを探し出す
+ぎっと	git blame FILE	独立語	FILEのblame出力をコマンドラインで表示する
+ぎっと	git --no-pager blame FILE > FILE-annotate	独立語	FILEのblame出力をコマンドラインで、FILE-annotateに保存する
+ぎっと	git log --oneline master..BRANCH	独立語	masterブランチの先で、BRANCHブランチまでにあるコミットを表示
+ぎっと	git rebase master	独立語	カレントブランチをmasterの最新コミットにリベースする
+ぎっと	git reset --hard HEAD@{n}	独立語	HEAD@{n}によって表現されるSHA1_IDを指し示すように、HEADをステージングエリアと作業ディレクトリの両方でリセットする
+ぎっと	git rebase --interactive master	独立語	masterの最新コミットをカレントブランチに、対話処理でリベースする。これによってエディタが開き、どのコミットをリベースに含めるかの取捨選択が可能となる
+ぎっと	git cherry-pick SHA1_ID	独立語	指定のコミットをカレントブランチにコピーする
+ぎっと	git commit --allow-empty -m "initial commit"	独立語	ファイルの追加なしにコミットを作る
+ぎっと	git merge --no-ff BRANCH	独立語	BRANCHをカレントブランチにマージし、たとえfast-forwardであっても、マージコミットを作成する
+ぎっと	git config --local --list	独立語	ローカル（リポジトリ固有の）Git構成をリストで表示
+ぎっと	git config --global --list	独立語	グローバル（ユーザー固有の）Git構成をリストで表示
+ぎっと	git config --system --list	独立語	システム（サーバー全体の）Git構成をリストで表示
+ぎっと	git -c log.date=relative log -n 2	独立語	相対的な日付フォーマットで最後の２つのコミットを表示
+ぎっと	git config --local log.date relative	独立語	相対的な日付フォーマットをローカルGit構成に保存
+ぎっと	git config --local --edit	独立語	ローカル（リポジトリ固有の）Git構成を編集する
+ぎっと	git config --global --edit	独立語	グローバル（ユーザー固有の）Git構成を編集する
+ぎっと	git config --system --edit	独立語	システム（サーバー全体の）Git構成を編集する
+ぎっと	git -c core.editor=echo config --local --edit	独立語	ローカルGit構成ファイルの名前をプリントする
+ぎっと	git -c core.editor=vim config --local --edit	独立語	ローカルGit構成vimで編集する
+ぎっと	git config core.excludesfile	独立語	Git構成core.excludesfileの設定値をプリントする
