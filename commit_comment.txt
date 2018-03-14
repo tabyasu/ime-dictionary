@@ -1,0 +1,117 @@
+こみっと	Add *A to *B	独立語	*Aを*Bに加える
+こみっと	Remove *A from *B	独立語	*Bから*Aを取り除く
+こみっと	Move *A from *B to *C	独立語	*Aを*Bから*Cに動かす
+こみっと	Replace *A with *B	独立語	*Aを*Bに取り替える
+こみっと	Make *A *B	独立語	*A を*Bにする、させる
+こみっと	Change *A to *B	独立語	*Aを*Bに変更する
+こみっと	Update *A to *B	独立語	*Aを*Bに更新する
+こみっと	Ensure *A	独立語	*A である事を確実にする
+こみっと	Use *A	独立語	*A を使う
+こみっと	Fix *A	独立語	*Aを直す
+こみっと	Refactor	独立語	動詞
+こみっと	Improve	独立語	動詞
+こみっと	Extract	独立語	動詞
+こみっと	Deprecate	独立語	動詞
+こみっと	Avoid	独立語	動詞
+こみっと	Simplify	独立語	動詞
+こみっと	Define	独立語	動詞
+こみっと	Allow	独立語	動詞
+こみっと	Switch from *A to *B	独立語	動詞
+こみっと	Implement	独立語	動詞
+こみっと	Clean up	独立語	動詞
+こみっと	Enable	独立語	動詞
+こみっと	Sorting *A by *B	独立語	動詞
+こみっと	Rewrite	独立語	動詞
+こみっと	Support	独立語	動詞
+こみっと	Stop, Prevent	独立語	動詞
+こみっと	Drop	独立語	動詞
+こみっと	with *P	独立語	*Pと一緒に、伴って
+こみっと	for *P	独立語	*P のために
+こみっと	instead of *P	独立語	*P の代わりに
+こみっと	in *P	独立語	*Pの、で
+こみっと	at *P	独立語	*Pの、で
+こみっと	as *P	独立語	*Pとして
+こみっと	fix/fixed/fixes	独立語	修正する
+こみっと	add/added	独立語	追加する
+こみっと	remove/removed	独立語	取り除く
+こみっと	use	独立語	用いる
+こみっと	update/updated	独立語	更新する
+こみっと	support	独立語	サポートする
+こみっと	merge	独立語	マージする
+こみっと	make	独立語	作成する
+こみっと	move	独立語	移動させる
+こみっと	don't	独立語	しない
+こみっと	check	独立語	チェックする
+こみっと	change	独立語	変更する
+こみっと	allow	独立語	許す
+こみっと	cleanup/clean	独立語	一掃する
+こみっと	set	独立語	セットする
+こみっと	convert	独立語	変換する
+こみっと	rename	独立語	リネームする
+こみっと	do	独立語	する
+こみっと	revert	独立語	リバートする
+こみっと	avoid	独立語	避ける
+こみっと	fix,in	独立語	Fix A in B  Bの箇所のAを修正
+こみっと	fix,for	独立語	Fix for A Aに対する修正
+こみっと	fix,to	独立語	Fix A to B  BへのAを修正
+こみっと	fix,of	独立語	Fix A of B  BのAを修正
+こみっと	add,to	独立語	Add A to B  BにAを追加
+こみっと	add,for	独立語	Add A for B B用にAを追加
+こみっと	remove,from	独立語	Remove A from B BからAを除去
+こみっと	remove,in	独立語	Remove A in B Bの箇所のAを除去
+こみっと	remove,unused	独立語	Remove unused A 不必要なAを除去
+こみっと	use,to	独立語	to use A  Aを用いるために
+こみっと	use,of	独立語	Use A instead of B  Bの代わりにAを用いる
+こみっと	use,in	独立語	Use A in B  Bの箇所のAを用いる
+こみっと	use,for	独立語	Use A for B BのためにAを用いる
+こみっと	use,remove	独立語	Remove use of B Bを用いるのを除去
+こみっと	update,to	独立語	Update to A  Aにアップデート
+こみっと	update,to	独立語	Update A to B  AをBにアップデート
+こみっと	update,for	独立語	Update A for B  Bに対してAをアップデート
+こみっと	support,add	独立語	Add A support  Aサポートを追加
+こみっと	support,add	独立語	Add support for A  Aに対するサポートを追加
+こみっと	make,of	独立語	Make use of A	Aを使用する
+こみっと	make,it	独立語	Make it A  Make it Aの比較級、Aにする、よりAにする(Aには、possible,simple,easy,clearなど)
+こみっと	make,sure	独立語	Make sure to A  必ずAするようにする
+こみっと	make,sure	独立語	Make sure (that) A  必ずAするようにする
+こみっと	move,from	独立語	Move A from B BからAを移動させる
+こみっと	move,to	独立語	Move A to B AをBに移動させる
+こみっと	move,in	独立語	Move A in B B内のAを移動させる
+こみっと	don't,use	独立語	Don't use A Aを用いない
+こみっと	check,for	独立語	Check for A Aに対するチェック
+こみっと	check,in	独立語	Check A in B  B内のAをチェック
+こみっと	chcek,fix	独立語	Fix A check Aチェックを修正
+こみっと	check,add	独立語	Add A check Aチェックを追加
+こみっと	remove,check	独立語	Remove A check  Aチェックを除去
+こみっと	change,to	独立語	Change A to B  AをBに変更
+こみっと	change,to	独立語	Change to B  Bに変更
+こみっと	change,for	独立語	Chage A for B Bに対してAを変更
+こみっと	change,in	独立語	Change A in B B中のAを変更
+こみっと	allow,to	独立語	Allow A to B  AがBするのを許すs
+こみっと	set,to	独立語	Set A to B  AをBにセット
+こみっと	set,for	独立語	Set A for B Bに対してAをセット
+こみっと	convert,to	独立語	Convert A to B  AをBに変換
+こみっと	convert,to	独立語	Convert to B  Bに変換
+こみっと	rename,to	独立語	Rename A to B AをBにリネーム
+こみっと	avoid,to	独立語	Avoid A to B  BするためにAを避ける
+こみっと	avoid,to	独立語	to avoid A  Aを避けるために
+こみっと	new	独立語	新しい  New URL.
+こみっと	unused	独立語	使用されていない  Remove unused $$
+こみっと	static	独立語	静的な  Build static executable.
+こみっと	empty	独立語	空の  Add empty line
+こみっと	old	独立語	古い  Fix old links
+こみっと	small	独立語	小さな  Small typo
+こみっと	initial	独立語	最初の  Initial commit
+こみっと	local	独立語	ローカルの  Updates local dev guide
+こみっと	wrong	独立語	間違った  Fix wrong id
+こみっと	common	独立語	共通の  Optimize the most common resolver case.
+こみっと	other	独立語	他の  Change other example fields
+こみっと	dead	独立語	死んだ  Remove dead link
+こみっと	rid	独立語	(get rid ofで) 取り除く get rid of EmptyComponent
+こみっと	possible	独立語	可能性のある  possible regression fix
+こみっと	unneeded	独立語	不必要な  Remove unneeded @
+こみっと	same	独立語	同じ  Use same colors for disabled buttons
+こみっと	global	独立語	グローバルの  Fix global leaks
+こみっと	invalid	独立語	不正な  Fix invalid timer test
+こみっと	specific	独立語	特定の  Remove linux specific calls
+こみっと	extra	独立語	余分な  Remove extra whitespace
