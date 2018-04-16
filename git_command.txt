@@ -76,7 +76,8 @@
 ぎっと	git tag -d TAGNAME	独立語	ローカルリポジトリから、TAGNAMEという名前のタグを削除する
 ぎっと	git config --global push.default simple	独立語	Git構成のpush.defaultを、simpleという値に設定する。これは、アクセスできるすべてのリポジトリに（グローバルに）設定される
 ぎっと	git pull	独立語	リポジトリと上流リポジトリと同期させる（git fetchとgit mergeの2つで構成される)
-ぎっと	git fetch	独立語	リモートリポジトリから新しいコミットが取り込まれ、リモート追跡ブランチが更新される
+ぎっと	git fetch [repo_name]	独立語	リモートリポジトリから新しいコミットが取り込まれ、リモート追跡ブランチが更新される
+ぎっと	git fetch --all -p	独立語	すべてのリモートリポジトリからfetchしリモートで削除されたブランチはローカルブランチも削除する
 ぎっと	git merge FETCH_HEAD	独立語	FETCH_HEADからの新しいコミットを、カレントブランチにマージする
 ぎっと	git pull --ff-only	独立語	--ff-onlyスイッチを指定すると、FETCH_HEADがカレントブランチの子孫である場合に限り、マージが許可される（fast-forwardマージ)
 ぎっと	git log --merges	独立語	マージの結果であるコミットのリストを表示
